@@ -1,0 +1,28 @@
+{
+  "name": "sxbcr-api",
+  "version": "1.0.0",
+  "description": "SXBCR WebSocket API",
+  "main": "sxbcr.js",
+  "scripts": {
+    "start": "node sxbcr.js",
+    "dev": "node --watch sxbcr.js"
+  },
+  "keywords": [
+    "express",
+    "websocket",
+    "axios",
+    "baccarat",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
